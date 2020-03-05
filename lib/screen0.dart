@@ -18,6 +18,7 @@ class Screen0 extends StatelessWidget {
               child: Text('Go To Screen 1'),
               onPressed: () {
                 //Navigate to Screen 1
+                Navigator.pushNamed(context, '/first');
               },
             ),
             RaisedButton(
@@ -25,6 +26,7 @@ class Screen0 extends StatelessWidget {
               child: Text('Go To Screen 2'),
               onPressed: () {
                 //Navigate to Screen 2
+                Navigator.pushNamed(context, '/second');
               },
             ),
           ],
